@@ -89,25 +89,25 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1277,1202" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1103,1204" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="518,1179" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1181" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Untitled - Notepad" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,987" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="0a96cc97-0479-40fc-b45d-01051d064cdf" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Untitled - Notepad" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,989" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="0a96cc97-0479-40fc-b45d-01051d064cdf" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,686" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,688" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -117,7 +117,7 @@
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable CVScreenId="72645e98-439c-4ed6-aeec-6fcefab89501" ContentHash="8zUJSNy6JkWxJk6oLvNsaw" CvElementArea="5, 75, 838, 429" CvType="InputBox" DesignTimeRectangle="6, 75, 836, 430" ElementType="InputBox" FullSelectorArgument="&lt;wnd cls='RichEditD2DPT' /&gt;" Guid="5043dcb9-56b6-4dda-9b38-3d66f07f4394" InformativeScreenshot="034b5d569e2c242a1f6d081337fd22c4.png" Reference="SbBjmrXU-0223kI5RbXYtw/sfEIdcgTAUKyC1rhushJVw" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Untitled - Notepad' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="72645e98-439c-4ed6-aeec-6fcefab89501" CvTextArea="19, 52, 132, 13" CvTextArgument="File Edit View" CvType="Text" DesignTimeRectangle="6, 42, 159, 32" ElementType="Toolbar" FuzzySelectorArgument="&lt;uia automationid='MenuBar' role='menu bar' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='File&amp;#x9;&amp;#xA;Edit&amp;#x9;&amp;#xA;View' /&gt;" Guid="c1c48a3a-a47f-412e-a7e1-7b24f7cf5511" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
