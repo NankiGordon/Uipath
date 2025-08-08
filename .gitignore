@@ -2,3 +2,6 @@
 .local/
 .settings/
 .project/
+.objects/
+.screenshots/
+.storage/
