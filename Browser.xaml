@@ -1,0 +1,192 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Browser" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Browser_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Browser" sap:VirtualizedContainerService.HintSize="1174,1515" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strBrowserFolder">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;C:\Users\nanki\OneDrive\Documents\UiPath Projects\Tutorials\Practice Files\Browser\Screenshot_&quot; &amp; Now.ToString(&quot;yyyyMMdd_HHmmss&quot;) &amp; &quot;.png&quot;" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="strPass">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">SuperSecretPassword!</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="strUserName">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">tomsmith</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="strUrl">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">https://the-internet.herokuapp.com/login</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="ui:Image" Name="imgScreenShot" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome The Internet" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1118" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="44611ea7-a81a-47ed-9b54-ccdc53b8ca4c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,868" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'Username'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="44611ea7-a81a-47ed-9b54-ccdc53b8ca4c" Text="[strUserName]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/login" CVScreenId="3363dee4-ccb1-41a9-abc9-f95c6745031d" ContentHash="AGpOsMSmtkKDgQ7sLfB5lg" CvElementArea="482, 468, 473, 34" CvType="InputBox" DesignTimeRectangle="483, 469, 470, 32" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='' aaname='Username' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2e722bc0-5b31-487c-a0ad-386fe87812f2" InformativeScreenshot="bec488f5a659bdca9e5e35233657f64f.png" IsResponsive="True" Reference="SbBjmrXU-0223kI5RbXYtw/VkOznTfggkmXK1nOuwPz_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="3363dee4-ccb1-41a9-abc9-f95c6745031d" CvTextArea="482, 452, 66, 13" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="483, 452, 470, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="8d7ee5af-311a-4546-bd1f-11b0d991e681" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="44611ea7-a81a-47ed-9b54-ccdc53b8ca4c" Text="[strPass]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/login" CVScreenId="992835b5-ab56-42e9-a8bd-b4d0b45fdefe" ContentHash="7EGM305WbkeZIqjLOQBqvQ" CvElementArea="481, 531, 473, 34" CvType="InputBox" DesignTimeRectangle="483, 532, 470, 32" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4e961ad4-7e8b-4857-934f-a67a255a54da" InformativeScreenshot="3a9b61858c0753a06402e96130fbc48a.png" Reference="SbBjmrXU-0223kI5RbXYtw/GA9gUd1eo060gae66XmUAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="992835b5-ab56-42e9-a8bd-b4d0b45fdefe" CvTextArea="482, 515, 62, 13" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="483, 515, 470, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="50625d10-d8c5-4b4c-b919-3a63805df757" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44611ea7-a81a-47ed-9b54-ccdc53b8ca4c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/login" CVScreenId="992835b5-ab56-42e9-a8bd-b4d0b45fdefe" ContentHash="Peg0KyGm602uff3t4VlQBw" CvElementArea="481, 577, 166, 62" CvTextArea="541, 594, 81, 34" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="483, 578, 162, 59" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="1c5c9d64-bd0c-41ea-9240-824cb7bf892a" InformativeScreenshot="f55ddddaf63d4133290d2f6cfbc8409d.png" Reference="SbBjmrXU-0223kI5RbXYtw/5LNA-xYQ9k6wdvRziHPDBQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="Vbu51PHt4kCXG1PunPnbwg" IconBase64="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" InformativeScreenshot="5628813c56be27e4a22e05792278775f.jpg" Reference="SbBjmrXU-0223kI5RbXYtw/aO5xmXl1eEOCAUj2cr9gPw" Selector="&lt;html app='chrome.exe' title='The Internet' /&gt;" Url="[strUrl]" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NTakeScreenshot DisplayName="Take Screenshot 'The Internet $(document…'" FileNameMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,216" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" OutImage="[imgScreenShot]" SaveScreenshotTo="Image" Version="V5">
+      <uix:NTakeScreenshot.SavedTo>
+        <OutArgument x:TypeArguments="x:String">[strBrowserFolder]</OutArgument>
+      </uix:NTakeScreenshot.SavedTo>
+      <uix:NTakeScreenshot.Target>
+        <uix:TargetAnchorable BrowserURL="the-internet.herokuapp.com/secure" ContentHash="CIpMQ929ZUauFL6vgCXAMA" DesignTimeRectangle="8, 129, 1920, 328" FullSelectorArgument="&lt;webctrl tag='HTML' /&gt;" Guid="1c7ae6c3-8e9f-481f-98db-06114e06b54c" InformativeScreenshot="83afa73dac7608ceb66de1a28400e107.png" Reference="SbBjmrXU-0223kI5RbXYtw/4TPTv07HZkuTiCVoUEXCGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+      </uix:NTakeScreenshot.Target>
+    </uix:NTakeScreenshot>
+    <ui:SaveImage DisplayName="Save Image" FileName="[strBrowserFolder]" sap:VirtualizedContainerService.HintSize="484,158" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[imgScreenShot]" />
+  </Sequence>
+</Activity>
